@@ -10,7 +10,7 @@
    "https://www.youtube.com/embed/KODE_VIDEO"
    (di YouTube: Bagikan > Sematkan > ambil alamat src="...")
    Biarkan "" kalau belum ada video. */
-const VIDEO_URL = "";
+const VIDEO_URL = "https://youtu.be/Znkz1nyaaOA?si=zQJCMjTpLSW9okbG";
 
 /* ---------- 2. PILIHAN METODE KB ----------
    name  : judul kartu
