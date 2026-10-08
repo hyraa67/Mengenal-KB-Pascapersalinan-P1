@@ -18,7 +18,7 @@ const GFORM_URL = "https://forms.gle/GANTI_DENGAN_LINK_FORM_ANDA";
    "https://www.youtube.com/embed/KODE_VIDEO"
    (di YouTube: Bagikan > Sematkan > ambil alamat src="...")
    Biarkan "" kalau belum ada video. */
-const VIDEO_URL = "https://youtu.be/Znkz1nyaaOA?si=zQJCMjTpLSW9okbG";
+const VIDEO_URL = "https://www.youtube.com/embed/Znkz1nyaaOA";
 
 /* ---------- 2. PILIHAN METODE KB ----------
    name  : judul kartu
