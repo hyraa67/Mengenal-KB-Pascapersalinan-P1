@@ -4,7 +4,15 @@
    Jangan hapus tanda koma (,) kurung kurawal { } atau kurung siku [ ].
    Untuk menambah item, salin satu blok { ... }, lalu tempel setelah koma.
    ===================================================== */
-
+/* ---------- 0. LINK WHATSAPP & GOOGLE FORM ----------
+   WHATSAPP_NUMBER : nomor tujuan, format internasional TANPA +, spasi, atau strip.
+                     Contoh: 0812-3456-7890 ditulis "6281234567890"
+   WHATSAPP_MESSAGE: pesan awal yang otomatis terisi saat tombol diklik.
+   GFORM_URL       : link Google Form kuis lanjutan (Bagikan > salin link).
+   Kosongkan "" kalau ingin menyembunyikan tombolnya. */
+const WHATSAPP_NUMBER = "6281234567890";
+const WHATSAPP_MESSAGE = "Halo, saya ingin bertanya tentang KB pascapersalinan.";
+const GFORM_URL = "https://forms.gle/GANTI_DENGAN_LINK_FORM_ANDA";
 /* ---------- 1. VIDEO EDUKASI ----------
    Isi dengan link EMBED YouTube, contoh:
    "https://www.youtube.com/embed/KODE_VIDEO"
