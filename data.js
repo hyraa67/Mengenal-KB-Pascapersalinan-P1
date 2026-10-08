@@ -10,7 +10,7 @@
    WHATSAPP_MESSAGE: pesan awal yang otomatis terisi saat tombol diklik.
    GFORM_URL       : link Google Form kuis lanjutan (Bagikan > salin link).
    Kosongkan "" kalau ingin menyembunyikan tombolnya. */
-const WHATSAPP_NUMBER = "6281234567890";
+const WHATSAPP_NUMBER = "6289527158204";
 const WHATSAPP_MESSAGE = "Halo, saya ingin bertanya tentang KB pascapersalinan.";
 const GFORM_URL = "https://forms.gle/GANTI_DENGAN_LINK_FORM_ANDA";
 /* ---------- 1. VIDEO EDUKASI ----------
