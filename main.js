@@ -241,3 +241,22 @@ const $ = (id) => document.getElementById(id);
 
   load();
 })();
+/* ---------- 8. WHATSAPP & GOOGLE FORM ---------- */
+(function initLinks() {
+  // WhatsApp
+  const number = String(WHATSAPP_NUMBER || "").replace(/\D/g, "");
+  const waLinks = [$("waFloat"), $("waCta")];
+  if (number) {
+    const url = "https://wa.me/" + number + "?text=" + encodeURIComponent(WHATSAPP_MESSAGE || "");
+    waLinks.forEach((a) => { a.href = url; });
+  } else {
+    waLinks.forEach((a) => { a.hidden = true; });
+  }
+
+  // Google Form
+  if (GFORM_URL) {
+    $("gformBtn").href = GFORM_URL;
+  } else {
+    $("gformBox").hidden = true;
+  }
+})();
