@@ -220,12 +220,31 @@
     </form>
   </div>
 </section>
+/* ---------- WhatsApp & kuis lanjutan ---------- */
+.btn--wa { background: #25d366; color: #0b3d1f; }
+.btn--wa:hover { background: #1ebe5a; }
+[hidden] { display: none !important; }
 
+.wa-float {
+  position: fixed; right: 1rem; bottom: 1rem; z-index: 60;
+  display: flex; align-items: center; gap: .5rem;
+  background: #25d366; color: #0b3d1f; text-decoration: none;
+  font-family: var(--font-head); font-weight: 700;
+  padding: .7rem 1.1rem; border-radius: 999px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .25);
+  transition: transform .15s;
+}
+.wa-float:hover { transform: translateY(-3px); }
+.wa-float > span:first-child { font-size: 1.4rem; line-height: 1; }
+
+.quiz-next { max-width: 720px; margin-top: 1.25rem; background: var(--yellow-soft); border-radius: var(--radius); padding: 1.25rem 1.5rem; box-shadow: var(--shadow); display: flex; gap: 1rem; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+.quiz-next h3 { margin-bottom: .2em; }
+.quiz-next p { margin: 0; }
 <!-- ================= CTA PENUTUP ================= -->
 <section class="cta">
   <div class="container cta__inner">
     <div>
-      <h2>Yuk, kenali pilihanmu!</h2>
+           <a class="btn btn--wa" id="waCta" href="#" target="_blank" rel="noopener">💬 Tanya via WhatsApp</a>
       <p>Sekarang Ibu sudah mengenal apa itu KB pascapersalinan. Selanjutnya, yuk kenali berbagai metode kontrasepsi dan kapan metode tersebut dapat digunakan.</p>
     </div>
     <div class="cta__actions">
@@ -250,6 +269,9 @@
       <a href="#metode">Pilihan Metode KB</a>
       <a href="#kuis">Kuis</a>
       <a href="#rencana">Rencana KB Saya</a>
+      <a class="wa-float" id="waFloat" href="#" target="_blank" rel="noopener" aria-label="Chat WhatsApp">
+  <span aria-hidden="true">💬</span><span class="wa-float__text">Tanya via WhatsApp</span>
+</a>
     </nav>
   </div>
 </footer>
